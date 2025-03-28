@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tags</title>
+        <link href="./resources/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1><bold>Everything you need to remember!!</bold></h1>
+    <p>HTML is the base of all web pages. It is the first layer, where you include your text, 
+        images and videos. After learning all the basics for HTML, you can start adding effects
+        and styling with CSS and JavaScript. Below you can find everything you need to know to start your own website.
+    </p>
+    <h2>HTML Basics</h2>
+    <table  border="5" class="basics">
+        <thead>
+            <tr>
+                <th>Tags</th>
+                <th>Common Attributes</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                <td>Empty</td>
+                <td>At the very start of the html file, declares the html version</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;html&gt;</td>
+                <td>Empty</td>
+                <td>Contains the whole html code, it is the starting declaration</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;head&gt;</td>
+                <td>Empty</td>
+                <td>Contains all the tags not shown to the user</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;title&gt;</td>
+                <td>Empty</td>
+                <td>Placed inside the head tag to set what name the users browser tab will have</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;body&gt;</td>
+                <td>Empty</td>
+                <td>Contains all the content shown to the user</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="note">Up to this point, it's all the necessary tags for a HTML code to work</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;p&gt;</td>
+                <td>Empty</td>
+                <td>Contains the paragraphs of a website</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;h1-6&gt;</td>
+                <td>Empty</td>
+                <td>Contains a header with 1 being the bigger one and 6 the smallest one</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;strong&gt;</td>
+                <td>Empty</td>
+                <td>Turns the text into bold</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;em&gt;</td>
+                <td>Empty</td>
+                <td>Turns the text into italic</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;span&gt;</td>
+                <td>Empty</td>
+                <td>Used inside text to separate a small area for styling</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="note">Semantic Knowledge, that the browser expect you to follow</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;header&gt;</td>
+                <td>Empty</td>
+                <td>Used to enclose headers in it</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;nav&gt;</td>
+                <td>Empty</td>
+                <td>Used to enclose our navigation links of the page in it</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;div&gt;</td>
+                <td><span id="keywords">Class</span>="name of class" or <span id="keywords">id</span>="name of id"</td>
+                <td>Used to separate parts of the website in smaller groups</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;section&gt;</td>
+                <td><span id="keywords">Class, Id</span></td>
+                <td>Similar to div tag, used to split content of the page to smaller groups(recommended for use)</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;article&gt;</td>
+                <td>Empty</td>
+                <td>Used to specify in our code where our content is(recommended to use)</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;figure&gt;</td>
+                <td>Empty</td>
+                <td>Used to enclose images, diagrams etc, of the page</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;figcaption&gt;</td>
+                <td>Empty</td>
+                <td>Used inside the figure tags to add a caption to the content added(images, diagrams etc)</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;footer&gt;</td>
+                <td>Empty</td>
+                <td>Used in the end of our page to enclose all the information about the page(contact info, emails, phone number etc)</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="list">Lists</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;ol&gt;</td>
+                <td>Empty</td>
+                <td>Declares an organized list with numbers</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;ul&gt;</td>
+                <td>Empty</td>
+                <td>Declares an unorganized list with bullet points</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;li&gt;</td>
+                <td>Empty</td>
+                <td>Used to add elements to both types of lists</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="note">Adding Content(links, images, videos, gif etc)</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;a "attribute"&gt;"Text that the user clicks on to load link"&lt;/a&gt;</td>
+                <td><span id="keywords">href</span>="Url or relative path" or <span id="keywords">href</span>=#id (id-name is placed somewhere in the site so whenever link is clicked it moves user to it), <span id="keywords">target</span>="_blank"(used to open the link in another tab)</td>
+                <td>Used to add links to the page</td>
+            </tr>
+            <tr>
+                <td class="tag" id="content">&lt;img "attribute" /&gt;</td>
+                <td><span id="keywords">src</span>="relative path or url", <span id="keywords">alt</span>="A description of the image" - (Needed for blind people)</td>
+                <td>Adds an image to the site</td>
+            </tr>
+            <tr>
+                <td class="tag" id="content">&lt;video "attribute"&gt;Video not Supported&lt;/video&gt;</td>
+                <td><span id="keywords">src</span>="relative path or url", <span id="keywords">height</span>="height of the video", <span id="keyword">width</span>="width of the video", <span id="keyword">autoplay</span> - plays automatically when the user loads the page, <span id="keywords">controls</span> - adds control buttons to the video, loop - for it to loop when ends</td>
+                <td>Used to add video to a site</td>
+            </tr>
+            <tr>
+                <td class="tag" id="content">&lt;audio "attribute"&gt; &lt;source src="path to audio file.mp3" type="audio/mp3"&gt; &lt;/audio&gt;</td>
+                <td><span id="keywords">autoplay</span> - plays automatically when the user loads the page, <span id="keywords">controls</span> - adds controls buttons to the audio</td>
+                <td>Adds audio file to the site</td>
+            </tr>
+            <tr>
+                <td class="tag" id="content">&lt;embed "attribute"/&gt;</td>
+                <td><span id="keywords">src</span>="gif file path"</td>
+                <td>Adds a gif to the site</td>
+            </tr>
+        </tbody>  
+    </table>
+    <p id="note">Note!: Almost every tag can take an id and class attribute, in case we want it to be customized with CSS later on.</p>
+    <br><br>
+    <h2 class="table-h1">Table Tags</h2>
+    <table class="table" border="5">
+        <thead>
+            <tr>
+                <th>Tags</th>
+                <th>Common Attributes</th>
+                <th>Description</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td class="tag">&lt;table&gt;</td>
+                <td><span id="keywords">border</span>="number" - Adds a border to the table</td>
+                <td>The starter element that contains the whole table</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;thead&gt;</td>
+                <td>Empty</td>
+                <td>Contains the column headers of the table</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;th&gt;</td>
+                <td>Empty</td>
+                <td>Used inside the &lt;thead&gt; to add headers to the table</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;tbody&gt;</td>
+                <td>Empty</td>
+                <td>Contains the actual data of the table</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;tr&gt;</td>
+                <td>Empty</td>
+                <td>Used to create rows in the table</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;td&gt;</td>
+                <td><span id="keywords">colspan, rowspan</span> ="number" - Defines how many columns or rows a data element will span</td>
+                <td>Used to add data to a row</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;tfoot&gt;</td>
+                <td>Empty</td>
+                <td>Used in the end of the table to contain some total values or data results</td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+      
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

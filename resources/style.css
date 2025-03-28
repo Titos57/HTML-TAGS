@@ -1,0 +1,37 @@
+body{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    text-decoration: underline;
+    color:black;
+    background-color: rgb(193, 165, 218);
+}
+table{
+    background-color:rgb(238, 233, 225);
+    width: 1300px;
+    height: 500px;
+    text-align: center;
+}
+.tag{
+    font-family: Courier, monospace, serif;
+    background-color: rgb(241, 138, 138);
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    font-weight: 500;
+}
+h2{
+    color:rgb(194, 5, 5);
+    text-align: center;
+    position: relative;
+    right: 120px;
+}
+#list, #note{
+    text-decoration: underline;
+    font-weight: 1000;
+}
+#keywords{
+    font-weight: bolder;
+    background-color: rgb(190, 207, 30);
+}
